@@ -1,5 +1,33 @@
+body {
+    background-color: gray;
+}
+
 h1{
     text-align: center;
     color: blue;
     text-transform:uppercase;
 }
+
+/*p{
+    color: green;
+} */
+
+#p1 {
+    color: green;
+}
+
+#p2 {
+    color: aqua;
+
+}
+
+#p3 {
+    color: yellow;
+}
+
+.transUpper {
+    text-transform: uppercase;
+}
+/*
+Se crea clase para transformar texto en mayuscula
+*/
