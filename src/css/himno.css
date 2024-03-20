@@ -1,0 +1,31 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    text-transform:uppercase;
+}
+
+/*p{
+    color: green;
+} */
+
+.parrafo-amarillo {
+    color: yellow;
+    background-color: grey;
+}
+
+.parrafo-azul {
+    color: blue;
+
+}
+
+.parrafo-rojo {
+    color: red;
+}
+
+.coro {
+    color: black;
+    background-color: green;
+}
