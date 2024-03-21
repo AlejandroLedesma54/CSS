@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(to bottom, #FFDA00 33.3%, #003893 33.3%, #003893 66.6%, #D52B1E 66.6%);
-  background-size: 1
+  background-size: 1px;
 }
 
 h1{
@@ -34,11 +34,7 @@ Se crea clase para transformar texto en mayuscula
 */
 
 
-/*
-  body {
-    background-image: url('/public/images/image.png'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta de tu imagen */
-    background-size: cover; /* Esta propiedad ajustará la imagen al tamaño de la ventana del navegador */
-    background-repeat: no-repeat; /* Esto evitará que la imagen de fondo se repita */
+
 
 
 .main {
