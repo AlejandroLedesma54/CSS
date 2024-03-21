@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    border: 1px solid black;
+    padding: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 200px;
+}
+
+.contenedor-imagen {
+    border:1px solid orange;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: ;
+}
+
+.imagen {
+    border: 1px solid red;
+    width: 80px;
+}
