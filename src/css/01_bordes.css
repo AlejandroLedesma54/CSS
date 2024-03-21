@@ -10,6 +10,8 @@ border-bottom-width: 80px;
 border-left-width: 100px;*/
 /*border-width: 50px 60px 80px 100px;*/
 border-width: 20px 80px;
+border-radius: 60px;
+
 }
 
 p.dotted {
@@ -54,4 +56,90 @@ p.hidden {
 
 p.mix {
     border-style: dotted dashed solid double;
+}
+
+/* La propiedad border-width con tamaño especifico*/
+p.uno {
+    border-style: solid;
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+}
+
+p.dos {
+    border-style: solid;
+    border-width: 20px 5px;
+    /* 20px top and bottom, 5px on the sides */
+}
+
+p.tres {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /* 25px top, 10px right, 4px bottom and 35px left */
+}
+
+/* La propiedad border-width */
+
+p.one {
+    border-style: solid;
+    border-width: 5px;
+}
+
+p.two {
+    border-style: solid;
+    border-width: medium;
+}
+
+p.three {
+    border-style: dotted;
+    border-width: 2px;
+}
+
+p.four {
+    border-style: dotted;
+    border-width: thick;
+}
+
+p.five {
+    border-style: double;
+    border-width: 15px;
+}
+
+p.six {
+    border-style: double;
+    border-width: 10%;
+}
+
+.imagen-1 {
+    border: 100px;
+    display: block;
+    border-radius: 60px;
+    border-style: solid;
+}
+.imagen-2 {
+    width:50%;
+    display: block;
+    border-style: dotted;
+}
+.imagen-3 {
+    width:50%;
+    display: block;
+    border-style: double;
+}
+.imagen-4 {
+    width:auto;
+    display: block;
+    border-style: dashed;
+}
+.imagen-5 {
+    width: 50%;
+    display: block;
+}
+
+
+.acomodar-imagen {
+    width: 300px;
+    height: 500px; 
+    background-color: aliceblue;
+    padding: 1px;
+ 
 }
